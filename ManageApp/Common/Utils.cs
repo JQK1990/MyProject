@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Manager.Common
+namespace ManageApp.Common
 {
     public static class Utils
     {

@@ -6,13 +6,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Manager
+namespace ModernUINavigationApp1
 {
     /// <summary>
-    /// App.xaml 的交互逻辑
+    /// Interaction logic for App.xaml
     /// </summary>
     public partial class App : Application
     {
-
     }
 }
