@@ -8,7 +8,6 @@ namespace Manager.Common
         {
             DateTime time = DateTime.Now;
             return time;
-
         }
 
     }
