@@ -1,0 +1,25 @@
+﻿<UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mui="http://firstfloorsoftware.com/ModernUI" xmlns:Custom="http://lanjunze.com/" x:Class="ManageApp.Pages.UserForm.BasicPage1"
+             Height="437.727" Width="666.402" mc:Ignorable="d">
+    <Grid Style="{StaticResource ContentRoot}">
+        <ScrollViewer>
+            <StackPanel MinWidth="200" Orientation="Horizontal">
+                <Grid Width="565" Height="366" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100*"/>
+                        <ColumnDefinition Width="175*"/>
+                        <ColumnDefinition Width="111*"/>
+                        <ColumnDefinition Width="179*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="315*"/>
+                    </Grid.RowDefinitions>
+
+                    <Custom:DateTimePicker Margin="10,9" Grid.Row="1" Grid.Column="3" />
+                    <Custom:DateTimePicker Margin="11,10,10,9" Grid.Row="1" Grid.Column="1"/>
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>
